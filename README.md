@@ -25,4 +25,25 @@ This application allows users to upload logs, send them to the backend for analy
 
 
 ## 🗂 Project Structure
-
+project/
+│
+├── backend/
+│ ├── index.js # Node.js backend server
+│ ├── package.json
+│ └── node_modules/
+│
+├── src/
+│ ├── components/
+│ │ └── PreviewModal.tsx
+│ ├── utils/
+│ │ ├── logParser.ts
+│ │ ├── dataRedactor.ts
+│ │ └── api.ts # Frontend API function
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── index.css
+│
+├── .env
+├── package.json
+├── vite.config.ts
+└── README.md
