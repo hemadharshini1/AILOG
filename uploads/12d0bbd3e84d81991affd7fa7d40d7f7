@@ -1,0 +1,17 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class hello{
+    public static void main (String[]args){
+        String name ="Hems";
+        double marks = 98.5;
+        char grade = 'A';
+        int age = 20;
+        boolean isStudent = true;
+        System.out.println("age :"+age);
+        System.out.println("name :"+name);
+        System.out.println("marks :"+marks);
+        System.out.println("grade :"+grade);
+        System.out.println("IsStudent ?"+isStudent);
+    }
+}
